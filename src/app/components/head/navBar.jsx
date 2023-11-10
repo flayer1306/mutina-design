@@ -1,11 +1,11 @@
 import React from 'react';
-
+import styles from '../../../styles.module.css';
 export const Navbar = () => {
     return (
-        <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className={styles.navi}>
+            <img src='/images/лого.png' alt='картинка'/>
+        <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
-
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -28,7 +28,6 @@ export const Navbar = () => {
                 </div>
             </div>
         </nav>
-        <img src='/images/Главная.jpg' alt='картинка'/>
         </div>
     )
 }
