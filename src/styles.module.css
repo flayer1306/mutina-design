@@ -3,9 +3,11 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-between;
-    /*font-family: sans-serif;*/
-    /*letter-spacing: 0px;*/
+    font-family: Inconsolata;
+    letter-spacing: 0px;
     font-stretch: ultra-condensed;
+
+
 }
 .navi img {
     width: 15% ;
